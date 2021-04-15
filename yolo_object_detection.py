@@ -3,7 +3,7 @@ import numpy as np
 
 #Carregar o YOLO
 
-redeNeural = cv2.dnn.readNet("yolov3.weights", 'yolov3.cfg')
+redeNeural = cv2.dnn.readNet("yolov3.weights", 'yolov3.cfg') #precisa dos pesos da rede Neural, yolov3.weights
 
 classes = []
 with open("coco.names", 'r') as file:
